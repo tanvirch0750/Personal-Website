@@ -68,7 +68,7 @@
 }
 
 .style-switcher .color-1 {
-  background-color: rgb(23, 191, 99);
+  background-color: #2eb1ed;
 }
 .style-switcher .color-2 {
   background-color: #ec9412;
@@ -77,7 +77,7 @@
   background-color: #fb839e;
 }
 .style-switcher .color-4 {
-  background-color: #2eb1ed;
+  background-color: rgb(23, 191, 99);
 }
 .style-switcher .color-5 {
   background-color: #cc3a3b;
