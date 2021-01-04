@@ -548,11 +548,11 @@ img {
 .home-section .home-text p {
   color: var(--text-black-300);
   font-size: 18px;
-  text-transform: capitalize;
+  text-transform: initial;
   margin: 0;
 }
 
-.home-section .home-text h2 {
+.home-section .home-text h1 {
   font-size: 50px;
   font-weight: 700;
   color: var(--text-black-700);
@@ -560,13 +560,21 @@ img {
   text-transform: capitalize;
 }
 
-.home-section .home-text h1 {
+.home-section .home-text h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--text-black-600);
+  margin: 0;
+  text-transform: initial;
+}
+
+/* .home-section .home-text h1 {
   font-size: 20px;
   font-weight: 500;
   color: var(--text-black-600);
   margin: 0;
   text-transform: capitalize;
-}
+} */
 
 .home-section .home-text .btn-1 {
   margin-top: 30px;
@@ -652,6 +660,7 @@ img {
 }
 .about-section .about-info span {
   font-weight: 600;
+  color: var(--skin-color);
 }
 
 .about-section .about-info .btn-1 {
