@@ -349,7 +349,7 @@ img {
 
 /* HEADER */
 .header {
-  padding: 20px 15px;
+  padding: 20px 50px;
   position: absolute;
   width: 100%;
   top: 0;
@@ -360,14 +360,15 @@ img {
 .header .logo a {
   display: inline-block;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 36px;
   color: var(--skin-color);
   font-weight: 600;
-  height: 40px;
-  width: 40px;
+  padding: 0px 25px;
+  /* height: 40px;
+  width: 40px; */
   border: 2px solid var(--skin-color);
-  border-radius: 50%;
+  /* border-radius: 50%; */
   text-transform: uppercase;
 }
 
@@ -567,6 +568,7 @@ img {
   color: var(--text-black-600);
   margin: 0;
   text-transform: initial;
+  margin-bottom: 32px;
 }
 
 .home-section .home-text .btn-1 {
@@ -606,7 +608,7 @@ img {
 
 .about-section .about-img .img-box img {
   width: 100%;
-  border: 10px solid transparent;
+  /* border: 10px solid transparent; */
   border-radius: 5px;
 }
 
@@ -697,6 +699,16 @@ img {
 .about-section .tab-content.active {
   display: block;
   animation: fadeInTop 0.5s ease;
+}
+
+.about-section .skills .skill-text {
+  width: 100%;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 32px;
+  color: var(--text-black-600);
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 .about-section .skills {
@@ -1254,14 +1266,14 @@ img {
   left: 0;
   top: 15px;
   height: 40px;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
   color: var(--skin-color);
   cursor: pointer;
   padding: 0 15px;
   line-height: 40px;
   border-radius: 30px;
   transition: all 0.3s ease;
+  letter-spacing: 1px;
 }
 
 .portfolio-popup .pp-project-details-btn i {
@@ -1282,7 +1294,8 @@ img {
   text-align: center;
   line-height: 35px;
   font-size: 35px;
-  color: var(--text-black-600);
+  /* color: var(--text-black-600); */
+  color: var(--skin-color);
   cursor: pointer;
   transition: all 0.3s ease;
 }
